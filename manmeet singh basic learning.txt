@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf("enter a number:");
+    scanf("%d",&n);// scan f signify that input is used,%d signifiys that input is 
+                   //number and &n signify the variable that is in action
+    printf("number=%d",n); //function used to display the number after taking input
+    return 0;
+}
